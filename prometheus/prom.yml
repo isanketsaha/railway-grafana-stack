@@ -27,4 +27,4 @@ scrape_configs:
     static_configs:
       - targets:
           # On MacOS, replace localhost by host.docker.internal
-          - tuliphost-production.up.railway.app/api
+          - https://tuliphost-production.up.railway.app/api
