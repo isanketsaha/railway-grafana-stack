@@ -23,8 +23,8 @@ scrape_configs:
     #basic_auth:
     # username: admin
     # password: admin
-    metrics_path: /management/prometheus
+    metrics_path: /api/management/prometheus
     static_configs:
       - targets:
           # On MacOS, replace localhost by host.docker.internal
-          - https://tuliphost-production.up.railway.app/api
+          - tuliphost:443
